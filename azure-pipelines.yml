@@ -18,7 +18,5 @@ steps:
   displayName: 'Instalar dependências'
  
 - script: |
-    firebase deploy --token $(FIREBASE_TOKEN)
+    firebase deploy --token 1\0hFrD0SnbQxBHCgYIARAAGBESNwF-L9IrWsRM3I6a1_9-moXP-gIwU3fkw4V9gCbagfYlGycCK9disjiL9XFCOPcLmlDCodjV3XQ
   displayName: 'Deploy para Firebase Hosting'
-  env:
-    FIREBASE_TOKEN: $(FIREBASE_TOKEN)  # Use a variável de ambiente para o token
