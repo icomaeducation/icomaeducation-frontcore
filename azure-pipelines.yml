@@ -7,7 +7,7 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '16.x'  # Certifique-se de que a versão do NodeJS é compatível
+    versionSpec: '20.x'  # Certifique-se de que a versão do NodeJS é compatível
  
 - script: |
     npm install -g firebase-tools
